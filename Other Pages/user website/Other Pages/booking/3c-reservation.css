@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display:grid;
+  background-color: hsla(30, 8%, 5%, 1);
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+h1 {
+  color:hsl(38, 61%, 73%);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+
+
+#layout {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-bottom: 30px;
+  
+}
+
+.seat {
+  text-align: center;
+  padding: 20px 0;
+  background: #DCD0FF;
+  font-weight:  700;
+  letter-spacing: 0.1rem;
+}
+
+#layout .seat {
+  cursor: pointer;
+  /* border-radius: 15px; */
+  width: 100px;
+  height: 50px;
+}
+.taken {
+  color: #a9a9a9;
+  background: #F3FFD0 !important;
+}
+.selected {
+  background: #E8C7C8 !important;
+}
+
+
+
+#legend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-template-columns: 50px 100px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+#legend div {
+  padding: 10px 30px;
+  /* border-radius: 15px; */
+}
+
+#go {
+  border: 0;
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: 500;
+  color: #fff;
+  background: #451952;
+  cursor: pointer;
+  letter-spacing: 2px;
+  width: 300px;
+  height: 50px;
+  margin-left: 140px;
+
+
+}
+
+
+
+.txt {
+  color: #CCCC99;
+ 
+}
+
+
+
+span {
+  color: hsl(38, 61%, 73%);
+  text-align: center;
+}
+
+
+.theater-container {
+  
+  margin: 5px;
+  display:flex ;
+  gap: 5px;
+}
+
+.theater-container select {
+  
+  
+  color: #000000;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+}
+
+input{
+
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+
+  }
+
+
+
+  
